@@ -1,0 +1,38 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+
+## termux-style installer script
+
+## ANSI Colors (FG & BG)
+RED="$(printf '\033[31m')"  GREEN="$(printf '\033[32m')"  ORANGE="$(printf '\033[33m')"  BLUE="$(printf '\033[34m')"
+MAGENTA="$(printf '\033[35m')"  CYAN="$(printf '\033[36m')"  WHITE="$(printf '\033[37m')" BLACK="$(printf '\033[30m')"
+REDBG="$(printf '\033[41m')"  GREENBG="$(printf '\033[42m')"  ORANGEBG="$(printf '\033[43m')"  BLUEBG="$(printf '\033[44m')"
+MAGENTABG="$(printf '\033[45m')"  CYANBG="$(printf '\033[46m')"  WHITEBG="$(printf '\033[47m')" BLACKBG="$(printf '\033[40m')"
+DEFAULT_FG="$(printf '\033[39m')"  DEFAULT_BG="$(printf '\033[49m')"
+
+
+## Directories
+PREFIX='/data/data/com.termux/files/usr'
+TERMUX_DIR="$HOME/.termux"
+DIR="$(pwd)"
+
+#Banner
+banner () {
+    clear
+    echo "
+    ${BLUE}ㅤㅤㅤ███╗░░██╗███████╗██╗░░░██╗███████╗██████╗░
+    ${BLUE}ㅤㅤㅤ████╗░██║██╔════╝██║░░░██║██╔════╝██╔══██╗
+    ${BLUE}ㅤㅤㅤ██╔██╗██║█████╗░░╚██╗░██╔╝█████╗░░██████╔╝
+    ${BLUE}ㅤㅤㅤ██║╚████║██╔══╝░░░╚████╔╝░██╔══╝░░██╔══██╗
+    ${BLUE}ㅤㅤㅤ██║░╚███║███████╗░░╚██╔╝░░███████╗██║░░██║
+    ${BLUE}ㅤㅤㅤ╚═╝░░╚══╝╚══════╝░░░╚═╝░░░╚══════╝╚═╝░░╚═╝
+    ${BLUE}ㅤㅤㅤㅤ[${RED}*${BLUE}] ${ORANGE}By - Lilsky${RED}/ ${ORANGE}Darkside 
+    ${WHITE}▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭
+    ${WHITE}━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━
+   ${ORANGE}[${WHITE}01${ORANGE}]${WHITE} Theme-Me                    ${ORANGE}[${WHITE}06${ORANGE}]${WHITE} ReportFacebook
+   ${ORANGE}[${WHITE}02${ORANGE}]${WHITE} Theme-OHMYZSH               ${ORANGE}[${WHITE}07${ORANGE}]${WHITE} ยิงดิส (ห้อง,ยศ,ข้อความ)
+   ${ORANGE}[${WHITE}03${ORANGE}]${WHITE} Termux-Style                ${ORANGE}[${WHITE}08${ORANGE}]${WHITE} ยิงเบอร์ 180Api
+   ${ORANGE}[${WHITE}04${ORANGE}]${WHITE} Never                       ${ORANGE}[${WHITE}09${ORANGE}]${WHITE} ยิงเว็ป 50api
+   ${ORANGE}[${WHITE}05${ORANGE}${WHITE}] Python Clone                ${ORANGE}[${WHITE}10${ORANGE}]${WHITE} Exit
+    ${WHITE}━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━
+    ${WHITE}▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭
