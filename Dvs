@@ -33,11 +33,11 @@ banner () {
     ${BLUE}ㅤㅤㅤㅤ[${RED}*${BLUE}] ${ORANGE}By - Lilsky${RED}/ ${ORANGE}Darkside 
     ${WHITE}▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭
     ${WHITE}━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━
-   ${ORANGE}[${WHITE}01${ORANGE}]${WHITE} Theme-Me                    ${ORANGE}[${WHITE}06${ORANGE}]${WHITE} ReportFacebook
-   ${ORANGE}[${WHITE}02${ORANGE}]${WHITE} Theme-OHMYZSH               ${ORANGE}[${WHITE}07${ORANGE}]${WHITE} ยิงดิส (ห้อง,ยศ,ข้อความ)
-   ${ORANGE}[${WHITE}03${ORANGE}]${WHITE} Termux-Style                ${ORANGE}[${WHITE}08${ORANGE}]${WHITE} ยิงเบอร์ 180Api
-   ${ORANGE}[${WHITE}04${ORANGE}]${WHITE} Never                       ${ORANGE}[${WHITE}09${ORANGE}]${WHITE} ยิงเว็ป 50api
-   ${ORANGE}[${WHITE}05${ORANGE}${WHITE}] Python Clone                ${ORANGE}[${WHITE}10${ORANGE}]${WHITE} Exit
+    ${ORANGE}[${WHITE}01${ORANGE}]${WHITE} Theme-Me                    ${ORANGE}[${WHITE}06${ORANGE}]${WHITE} ReportFacebook
+    ${ORANGE}[${WHITE}02${ORANGE}]${WHITE} Theme-OHMYZSH               ${ORANGE}[${WHITE}07${ORANGE}]${WHITE} ยิงดิส (ห้อง,ยศ,ข้อความ)
+    ${ORANGE}[${WHITE}03${ORANGE}]${WHITE} Termux-Style                ${ORANGE}[${WHITE}08${ORANGE}]${WHITE} ยิงเบอร์ 180Api
+    ${ORANGE}[${WHITE}04${ORANGE}]${WHITE} Never                       ${ORANGE}[${WHITE}09${ORANGE}]${WHITE} ยิงเว็ป 50api
+    ${ORANGE}[${WHITE}05${ORANGE}${WHITE}] Python Clone                ${ORANGE}[${WHITE}10${ORANGE}]${WHITE} Exit
     ${WHITE}━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━
     ${WHITE}▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭
 
